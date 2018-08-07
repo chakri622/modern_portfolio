@@ -10,7 +10,7 @@
         height: 3px;
         margin: 0 0 5px 0;
         @include easeOut;
-        background: #fff;
+        background: set-text-color($primary-color);
     }
     &.close {
         transform: rotate(180deg);
@@ -95,7 +95,7 @@
         font-size: 30px;
         padding: 1 rem 0;
         @include easeOut;
-        color: #fff;
+        color: set-text-color($primary-color);
         &:hover {
             color: $secondary-color;
         }
